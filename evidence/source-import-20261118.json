@@ -1,0 +1,163 @@
+{
+  "verifiedAt": "2026-11-18T06:54:38.7722038Z",
+  "scope": "Import of existing local v2 source and test definitions; not newly implemented code",
+  "fileCount": 31,
+  "allMatch": true,
+  "files": [
+    {
+      "path": ".gitignore",
+      "sha256": "982818c089c219a88bbb395728baac2122540bf876217ef32f6a37808d875e59",
+      "matchesSource": true
+    },
+    {
+      "path": "AppScope/app.json5",
+      "sha256": "c3e34f287e0ebc652415f1f6b0ba4b48203c39119c63761788ed191404a36c4d",
+      "matchesSource": true
+    },
+    {
+      "path": "AppScope/resources/base/element/string.json",
+      "sha256": "c83736a3915862413ba5dcb8039a35c778ad02f6583643661c6f735d48087668",
+      "matchesSource": true
+    },
+    {
+      "path": "AppScope/resources/base/media/app_icon.svg",
+      "sha256": "6c3ac48c82e004fc10bd6d87f011bf92b71a6065d2781be16da02e1e3e5235aa",
+      "matchesSource": true
+    },
+    {
+      "path": "build-profile.json5",
+      "sha256": "054e10d79dea682ddb5c6e132c8607b8364c79c201ae2c9479da8c4e37497d9d",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/build-profile.json5",
+      "sha256": "e82e44518a82ed47e84a4641570f4af0373141fe21ef609a5212a6d7ac812db4",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/hvigorfile.ts",
+      "sha256": "f71679171099cb5c2260ab2a43e38164f169216c217ffdba7d0933e92ca8f733",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/obfuscation-rules.txt",
+      "sha256": "364131a7cb2048adddfe45fa135510a2dfb1867926d4c792dea75fb202b48726",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/oh-package.json5",
+      "sha256": "38b23afe1c28c20be29c05eaddd15559df9b0bc2ae43ad14583be80d6a2cae16",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/data/CaseData.ets",
+      "sha256": "50c40295098c5d3d7daef3100d41abf30b006f12d6e66ee1707ffdc2a4991c8b",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/data/PreferencesStore.ets",
+      "sha256": "0bf009de9ab156396d7d54a77ca12156dcb2135e324d0cf1a19a713b2e0d8a6c",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/data/SaveRepository.ets",
+      "sha256": "a5f9c7ff0935cc716ce16520efba1f25fb35568aae3eb99e98236c09430285dd",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/domain/GameEngine.ets",
+      "sha256": "10c8de187510b85a96dfba88bd1b70858be854787fd4c9f9469cd01652bd09eb",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/domain/InvestigationSession.ets",
+      "sha256": "0e505e1edc3c6555e8e95e44d7759b8517e04bf8f35bd52945bed1e724947c64",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/domain/SaveCodec.ets",
+      "sha256": "ca7dbd274ebd466de599d89ade503ec325a856489687c87ce9d4b3d31d019bab",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/entryability/EntryAbility.ets",
+      "sha256": "0a2a031c60429a7e0814e07939d4ae13893d620c7aab48c6662b1fda6add2441",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/model/GameModel.ets",
+      "sha256": "222f46f956b48e1a4aa0144dbb5ba16ce8ea7cb18573f73978a84c60146fe188",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/pages/Index.ets",
+      "sha256": "837d2045eca3cc4b667b8033e525a6ef470fdee80f88e0d4e0270b3c2cdd1d5f",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/ets/testing/CoreCases.ets",
+      "sha256": "1213f110f4c2cc247500194454d89689667db11d8db348307a9f95f8968dffc0",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/module.json5",
+      "sha256": "3bf6ace0ca3de7e3a831d705123b0c63c30d1ba283f97f415bca090b03690541",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/resources/base/element/color.json",
+      "sha256": "7333294b113914684f7208bc48edccb8964246a10886fe8cfe4420d311cb5c0f",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/resources/base/element/string.json",
+      "sha256": "21b76a01f13574d95dd249514dbc80704d7aea87999c40cd2d368c259a475ec0",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/resources/base/media/app_icon.svg",
+      "sha256": "6c3ac48c82e004fc10bd6d87f011bf92b71a6065d2781be16da02e1e3e5235aa",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/main/resources/base/profile/main_pages.json",
+      "sha256": "b7248e3d58d4006a4bb01d9991e34b1292c03f3d212b5945470ec5bdcf9f1cbd",
+      "matchesSource": true
+    },
+    {
+      "path": "entry/src/test/List.test.ets",
+      "sha256": "6129c9f9e984f047551a9e6876d23f90cbd13e7eecac6614f8650834f4bfd6db",
+      "matchesSource": true
+    },
+    {
+      "path": "hvigor/hvigor-config.json5",
+      "sha256": "322388f2c82273216a0447c80411ed686597c62269a26d6304694e521486a749",
+      "matchesSource": true
+    },
+    {
+      "path": "hvigorfile.ts",
+      "sha256": "c08e821b017d4199cbc2f0d086bb329e27e469e4c7d575f4493dfc2f92c72143",
+      "matchesSource": true
+    },
+    {
+      "path": "oh-package-lock.json5",
+      "sha256": "bd8f1afa37a30780df4f2a7602ce1d1fa55c1130fdf2ce3e6ac8c64e43af9b69",
+      "matchesSource": true
+    },
+    {
+      "path": "oh-package.json5",
+      "sha256": "3cab9e26a2a64272cc3008eddfe7e3f49dcf5c05485a089fc1e42d495973b4a5",
+      "matchesSource": true
+    },
+    {
+      "path": "scripts/test-core.mjs",
+      "sha256": "0d3c716619c248094483e247d4f9de24e2d8dd7899f4b11ab35d18b9b7235a62",
+      "matchesSource": true
+    },
+    {
+      "path": "scripts/test-native-ui.mjs",
+      "sha256": "ae4320f5524fbde80b126940442a014f1a63ba1ad8a14b4d3ee16bc9e786cb60",
+      "matchesSource": true
+    }
+  ]
+}
