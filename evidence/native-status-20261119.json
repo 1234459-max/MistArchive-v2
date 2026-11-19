@@ -1,20 +1,26 @@
 {
-  "executedAt": "2026-11-19T02:51:12.5824521Z",
-  "device": "Mate 90 Pro / MistArchive Course emulator",
+  "executedAt": "2026-11-19T03:07:14.133Z",
+  "device": "Mate 90 Pro",
+  "instancePath": "D:/HarmonyOSEmulator/images/Mate 90 Pro",
   "system": "HarmonyOS 7.0.0.120",
   "target": "127.0.0.1:5555",
   "buildPassed": true,
-  "installationConfirmed": false,
-  "uiRegressionPassed": false,
-  "failure": "System initialization did not complete. Install retried on copied and fresh instances; code:301 user not exist. First ability launch failed while device was locked.",
-  "freshInstallAttempts": 4,
-  "hostFreeMemoryGBLastCheck": 2.57,
-  "retryPending": false,
-  "nextStep": "Repair emulator boot before installing this HAP and running native UI checks",
+  "installationConfirmed": true,
+  "uiRegressionPassed": true,
+  "passed": 8,
+  "resumedAfterHarnessFix": false,
+  "hapSha256": "c112b5aa5e59819f30e3dc9df992cfc7bc7ae33b54f5b5e86757298964db8675",
+  "earlierFailureRecord": "evidence/native-status-before-d-retry-20261119.json",
+  "startupRecovery": "After D: free space increased to 14.38GB, original D: instance booted and entered desktop. F: validation instances are not used.",
+  "nextStep": "Continuous screen recording and personal Word report",
   "notCompleted": [
-    "Native UI regression",
-    "Real Preferences force-stop restore",
     "Continuous video",
     "Personal Word report"
+  ],
+  "notVerified": [
+    "Hypium execution",
+    "Physical phone",
+    "API12 runtime",
+    "Native storage fault injection"
   ]
 }

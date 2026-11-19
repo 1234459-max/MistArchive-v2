@@ -26,7 +26,7 @@ GameEngine集中校验事件与选择；InvestigationSession协调页面读档�
 
 11月19日在当前工程重新完成DevEco原生构建，结果为BUILD SUCCESSFUL in 31 s 107 ms，输出[调试HAP](dist/MistArchive-v2-debug-unsigned.hap)。仍有3处Preferences异常处理提示和未配置签名提示。
 
-今天模拟器系统启动异常：D盘空间不足；F盘副本和空白实例未完成正常桌面初始化，安装重试返回code:301 user not exist。应用安装与UI回归未通过，尚未获得本轮原生运行截图和实际Preferences恢复证据。失败日志保留，不以旧结果替代。本轮Hypium仍未执行。
+11月19日早先因D盘空间不足及临时实例初始化失败，未能完成安装。清理后D盘剩余约14.38GB，原Mate 90 Pro实例成功启动。随后安装本次编译的HAP，11:03至11:07完成8项原生UI检查，全部通过，包含两个结局、取消重开、分支约束和实际Preferences进程终止恢复。本次完整运行未中断续测，早先的失败日志仍保留。本轮Hypium未执行。
 
 - [结构化测试结果](evidence/host-test-results.json)
 - [本次执行日志](evidence/core-test-20261118.log)
@@ -35,6 +35,16 @@ GameEngine集中校验事件与选择；InvestigationSession协调页面读档�
 - [11月19日构建日志](evidence/build-20261119.log)
 - [11月19日包校验与环境](evidence/build-package-20261119.json)
 - [11月19日设备验证状态](evidence/native-status-20261119.json)
+- [8项原生UI检查结果](evidence/native-ui-results.json)
+- [D盘模拟器本次执行日志](evidence/native-ui-d-20261119.log)
+
+## 实际运行截图
+
+以下均为11月19日在D盘Mate 90 Pro模拟器运行本次HAP时采集的原生截图：
+
+<p><img src="evidence/screenshots/01-native-start.png" width="260" alt="初始调查和锁定场景"> <img src="evidence/screenshots/02-clues.png" width="260" alt="已取得的线索与回执详情"></p>
+<p><img src="evidence/screenshots/03-truth.png" width="260" alt="真相归档结局"> <img src="evidence/screenshots/04-rush.png" width="260" alt="未竟疑云结局"></p>
+<p><img src="evidence/screenshots/05-before-restart.png" width="260" alt="终止进程前的八事件五线索进度"> <img src="evidence/screenshots/06-after-restart.png" width="260" alt="重新启动后恢复相同进度"></p>
 
 ## 环境与运行
 
@@ -50,7 +60,7 @@ GameEngine集中校验事件与选择；InvestigationSession协调页面读档�
 node scripts/test-core.mjs
 ```
 
-原生UI脚本scripts/test-native-ui.mjs需已安装并运行中的模拟器及测试应用；会重开测试进度。MIST_HDC、MIST_DEVICE和MIST_BUNDLE可覆盖本机默认设置，执行前应核对。当前未上传本轮运行截图或视频。
+原生UI脚本scripts/test-native-ui.mjs需已安装并运行中的模拟器及测试应用；会重开测试进度。MIST_HDC、MIST_DEVICE和MIST_BUNDLE可覆盖本机默认设置，执行前应核对。本次使用D盘原实例，模拟器系统HarmonyOS 7.0.0.120；连续录屏尚待完成。
 
 ## 文档
 
@@ -62,6 +72,5 @@ node scripts/test-core.mjs
 ## 后续工作
 
 1. 根据实际运行问题完善交互或存档处理，并提交对应修改和测试。
-2. 解决模拟器系统启动异常，安装本轮HAP并进行UI回归，补充实际日志与截图。原生编译已通过。
-3. 录制完整调查、两个结局、重开及进程结束后的恢复过程。
-4. 完成个人Word报告，核对接口、核心代码、实际Commit和运行证据。
+2. 录制完整调查、两个结局、重开及进程结束后的恢复过程。
+3. 完成个人Word报告，核对接口、核心代码、实际Commit和运行证据。

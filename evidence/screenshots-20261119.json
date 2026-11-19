@@ -1,0 +1,37 @@
+[
+  {
+    "path": "evidence/screenshots/00-ready-for-user.png",
+    "sha256": "e86f20e38ec1f0174c8095d8c948318ba6682ed3c15023fdae766df9cbdec410",
+    "capturedAt": "2026-11-19T03:07:14.0951652Z"
+  },
+  {
+    "path": "evidence/screenshots/01-native-start.png",
+    "sha256": "add22a3d6ff977adfc9e09b782d5e9c8f7a0e4e0f3af23fddb2810c4c4b5f452",
+    "capturedAt": "2026-11-19T03:03:43.0743534Z"
+  },
+  {
+    "path": "evidence/screenshots/02-clues.png",
+    "sha256": "aad13990e9c62fa10c4d9bd4e4e87ebe864d08f84ac134b3c2ca162c9f6acb31",
+    "capturedAt": "2026-11-19T03:05:16.7038504Z"
+  },
+  {
+    "path": "evidence/screenshots/03-truth.png",
+    "sha256": "cbe7096749b96dc76c971b0b0ecd77e256741e7d8abcffa5cdb9fc16331cb7ed",
+    "capturedAt": "2026-11-19T03:05:11.5872148Z"
+  },
+  {
+    "path": "evidence/screenshots/04-rush.png",
+    "sha256": "05c7779941580106fef59084e71c4262516bdde24ec9e7287446dc939e2674c6",
+    "capturedAt": "2026-11-19T03:07:08.0031495Z"
+  },
+  {
+    "path": "evidence/screenshots/05-before-restart.png",
+    "sha256": "1c5d3758953b6fab2731742421709b9f0ac75f3c87d6e1b698351dff53c78565",
+    "capturedAt": "2026-11-19T03:04:26.2252826Z"
+  },
+  {
+    "path": "evidence/screenshots/06-after-restart.png",
+    "sha256": "515b6a76bf6e8ed578a89668e8337754b3ff642db825103b56249b429a233802",
+    "capturedAt": "2026-11-19T03:04:35.6995457Z"
+  }
+]

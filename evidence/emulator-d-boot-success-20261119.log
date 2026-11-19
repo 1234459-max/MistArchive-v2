@@ -1,0 +1,2 @@
+2026-11-19 11:00:45.910 20532 [Info] [QemuManager.cpp(EmitGuestOSBootComplete:146)]Guest OS Boot Completed!!
+2026-11-19 11:00:45.995 15292 [Info] [EmulatorWindowEvent.cpp(StopBootAnimation:1463)]StopBootAnimation.
