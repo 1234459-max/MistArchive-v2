@@ -1,0 +1,13 @@
+2026-11-19 native validation environment notes
+Original D: instance: emulator start rejected for insufficient disk space (8.40GB free at check).
+Created a separate F: instance copy; original instance retained.
+Base system-image directory reused through a junction; no image or user data uploaded.
+Connected using hdc tconn 127.0.0.1:5555.
+Early HAP installation and ability launch failed during system initialization; not counted as a test pass.
+2026-11-19 10:34:45.842 20364 [Warning] [CheckRuntimeEnv.cpp(RunCheck:176)]"No enough space to start Emulator"
+2026-11-19 10:36:00.236 3764 [Warning] [CheckRuntimeEnv.cpp(RunCheck:176)]"No enough space to start Emulator"
+2026-11-19 10:40:19.622 24556 [Warning] [QemuManager.cpp(HostFreeMemMonitor:943)]The host computer's memory is �� 1533  ,which is less than  3
+2026-11-19 10:42:19.624 24556 [Warning] [QemuManager.cpp(HostFreeMemMonitor:943)]The host computer's memory is �� 1612  ,which is less than  3
+2026-11-19 10:44:19.634 24556 [Warning] [QemuManager.cpp(HostFreeMemMonitor:943)]The host computer's memory is �� 914  ,which is less than  3
+2026-11-19 10:48:33.355 3320 [Warning] [QemuManager.cpp(HostFreeMemMonitor:943)]The host computer's memory is �� 2550  ,which is less than  3
+2026-11-19 10:50:33.371 3320 [Warning] [QemuManager.cpp(HostFreeMemMonitor:943)]The host computer's memory is �� 2608  ,which is less than  3

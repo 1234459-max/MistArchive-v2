@@ -1,0 +1,12 @@
+Attempt 1 at 2026-11-19T10:48:29.5951473+08:00
+[Info]App install path:F:\Projects\HarmonyOS\MistArchive-course-1234459-max\dist\MistArchive-v2-debug-unsigned.hap msg:error: failed to execute your command. 
+AppMod finish
+Attempt 2 at 2026-11-19T10:48:40.6720132+08:00
+[Info]App install path:F:\Projects\HarmonyOS\MistArchive-course-1234459-max\dist\MistArchive-v2-debug-unsigned.hap msg:error: failed to install bundle. code:301 error: user not exist. 
+AppMod finish
+Attempt 3 at 2026-11-19T10:49:13.1462692+08:00
+[Info]App install path:F:\Projects\HarmonyOS\MistArchive-course-1234459-max\dist\MistArchive-v2-debug-unsigned.hap msg:error: failed to install bundle. code:301 error: user not exist. 
+AppMod finish
+Attempt 4 at 2026-11-19T10:49:48.6859603+08:00
+[Info]App install path:F:\Projects\HarmonyOS\MistArchive-course-1234459-max\dist\MistArchive-v2-debug-unsigned.hap msg:error: failed to install bundle. code:301 error: user not exist. 
+AppMod finish

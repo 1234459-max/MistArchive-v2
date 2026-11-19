@@ -1,0 +1,40 @@
+11-19 10:44:28.837   246   794 E C02802/setting_DataShare: [|88]Get bool value fail
+11-19 10:44:28.837   246   794 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled' observer, error:19
+11-19 10:44:28.837   246   794 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled_on_lock_screen' observer, error:19
+11-19 10:44:28.837   246   794 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_timeout' observer, error:19
+11-19 10:44:28.909   811  1327 E C01336/AMS: [a92abb628cdd876, 39484b2, 0] [SAU316]extensionInfo empty
+11-19 10:44:28.909   811  1327 E C01342/ServiceExt: [a92abb628cdd876, 39484b2, 0] [ABMS6561]generate request error
+11-19 10:44:28.909  1052  2261 E C02300/FenceExtension: [(DoConnect:153)]CONNECT_ABILITY_FAILED,ret:2097152
+11-19 10:44:28.911   811  1327 E C01336/AMS: [a92abc628cde0fc, 2dd6f09, 0] [SAU316]extensionInfo empty
+11-19 10:44:28.911   811  1327 E C01342/ServiceExt: [a92abc628cde0fc, 2dd6f09, 0] [ABMS6561]generate request error
+11-19 10:44:28.911  1052  2261 E C02300/FenceExtension: [(DoConnect:153)]CONNECT_ABILITY_FAILED,ret:2097152
+11-19 10:44:29.037   811  1855 E C01650/StepResultSet: [a92abe6260669f6, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:44:29.037   811  1855 E C01120/BMS: [a92abe6260669f6, 0, 0] GoToFirstRow failed, ret: 27394061
+11-19 10:44:29.037   811  1855 E C01120/BMS: [a92abe6260669f6, 0, 0] default_app_rdb.cpp:GetDataFromDb:276 QueryData failed by key -100
+11-19 10:44:29.037   811  1855 E C01120/BMS: [a92abe6260669f6, 0, 0] default_app_rdb.cpp:GetDefaultApplicationInfos:53 GetDataFromDb failed
+11-19 10:44:29.038   811  1856 E C01650/StepResultSet: [a92abe6260669f6, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:44:29.038   811  1856 E C01120/BMS: [a92abe6260669f6, 0, 0] GoToFirstRow failed, ret: 27394061
+11-19 10:44:29.038   811  1856 E C01120/BMS: [a92abe6260669f6, 0, 0] GetInnerPatchInfo failed -n com.huawei.hmsapp.intelligent
+11-19 10:44:29.038   811  1855 E C01353/ServiceRouter: [a92abe6260669f6, 0, 0] [agent_card_db_mgr.cpp246]QueryData error: 27459591
+11-19 10:44:29.039   811  1856 E C01650/StepResultSet: [a92abe6260669f6, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:44:29.039   811  1856 E C01120/BMS: [a92abe6260669f6, 0, 0] GoToFirstRow failed, ret: 27394061
+11-19 10:44:29.039   811  1856 E C01650/StepResultSet: [a92abe6260669f6, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:44:29.042   311   311 E C015b0/NetConnManager: QueryActiveOsAccountIds is empty
+11-19 10:44:29.042   311   311 E C015b0/NetConnManager: LoadGlobalHttpProxy get userId fail.
+11-19 10:44:29.071   245   799 E C02699/MM: GetPressureMbStrings kernel pressure miss: key=stability_rollup
+11-19 10:44:29.071   245   799 E C02699/MM: ReadValuesFromFileWithoutLock Pressure fallback failed for key=stability_rollup
+11-19 10:44:29.071   245   799 E C02699/MM: GetPressureKbLockedMap stoi fail for key=stability_rollup
+11-19 10:44:29.071   245   799 E C02699/MM: IsBetaUser get logtype property fail
+11-19 10:44:29.261   447  2296 E C01611/UserDelegate: InitLocalUserMeta: failed to query os accounts, ret:1
+11-19 10:44:29.264   811  1307 E C01353/ServiceRouter: [a92abe6260669f6, 1f930d4, 0] [cli_tool_mgr_client.cpp515]Wait for load sa timeout
+11-19 10:44:29.264   811  1307 E C01353/ServiceRouter: [a92abe6260669f6, 1f930d4, 0] [cli_tool_mgr_client.cpp455]Load cli tool manager service failed
+11-19 10:44:29.264   811  1307 E C01353/ServiceRouter: [a92abe6260669f6, 1f930d4, 0] [cli_tool_mgr_client.cpp324]proxy is null
+11-19 10:44:29.264   811  1307 E C01353/ServiceRouter: [a92abe6260669f6, 1f930d4, 0] [function_call_convert.cpp394]batch update request failed, bundle: com.huawei.hmsapp.appgallery, ret: 35700000
+11-19 10:44:29.408   811  1853 E C01120/BMS: [a92abe6260669f6, 0, 0] [bundle_util.cpp(MakeFsConfig:538)]open file /config/hmdfs/com.huawei.hmos.photos/debug_type failed, errorNo: 2:No such file or directory
+11-19 10:44:29.762   447  2296 E C01611/UserDelegate: InitLocalUserMeta: failed to query os accounts, ret:1
+11-19 10:44:29.839   246   794 E C02801/TouchDrawingManager: [|247]Register setting observer failed, ret:19
+11-19 10:44:29.839   246   794 E C02801/TouchDrawingManager: [|285]Register setting observer failed, ret:19
+11-19 10:44:29.839   246   794 E C02801/TouchDrawingManager: [|309]Register setting observer failed, ret:19
+11-19 10:44:29.839   246   794 E C02802/setting_DataShare: [|88]Get bool value fail
+11-19 10:44:29.839   246   794 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled' observer, error:19
+11-19 10:44:29.839   246   794 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled_on_lock_screen' observer, error:19

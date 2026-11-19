@@ -1,0 +1,40 @@
+11-19 10:51:47.572   135   145 E C02510/devsvc_manager_stub: StubGetService service ril_ext not found
+11-19 10:51:47.572   131   995 E C02510/hdi_servmgr_client: get hdi service ril_ext failed, -1
+11-19 10:51:47.572   135   145 E C02510/devsvc_manager_stub: StubGetService service hmi_service not found
+11-19 10:51:47.573   131   995 E C02510/hdi_servmgr_client: get hdi service hmi_service failed, -1
+11-19 10:51:47.573   131   995 E C02510/hmi_interface_proxy: Get:get remote object failed!
+11-19 10:51:47.615   129  1162 E C05a03/Selinux: avc:  denied  { get } for service=5201 sid=u:r:installs:s0 scontext=u:r:installs:s0 tcontext=u:object_r:sa_filemanagement_distributed_file_daemon_service:s0 tclass=samgr_class permissive=0
+11-19 10:51:47.616  2173  3181 E C0430b/distributedfile_daemon: GetInstance:object == nullptr
+11-19 10:51:47.616  2173  3181 E C0430b/distributedfile_daemon: UMountDisShareFile:proxy is null
+11-19 10:51:47.627   461  3103 E C01611/UserDelegate: InitLocalUserMeta: failed to query os accounts, ret:1
+11-19 10:51:47.807  2117  2263 E C01810/SA_CLIENT: [a92ab26414d84bd, 15818e6, 0] GetSaWrap SA:401 not start
+11-19 10:51:47.807  2117  2263 E C01202/Ces: [a92ab26414d84bd, 15818e6, 0] Failed to get bundle manager service.
+11-19 10:51:47.807  2117  2263 E C01202/Static: [a92ab26414d84bd, 15818e6, 0] Failed to init AllowList
+11-19 10:51:47.807  2117  2263 E C01202/Static: [a92ab26414d84bd, 15818e6, 0] Failed to init subscribers
+11-19 10:51:47.812   703  2063 E C05320/HWID_SA: [a92abc6443c61ae] HuaweiIDService GetForegroundOsAccountLocalId ret: 4194349
+11-19 10:51:47.812  2117  2264 E C011ff/ERMS: [ERMS_CACHE(QueryHuaweiIdState:1197)] GetHuaweiIdState failed!
+11-19 10:51:47.866  2117  2326 E C01650/StepResultSet: [a92ab26414d84bd, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:51:47.866  2117  2326 E C01120/BMS: [a92ab26414d84bd, 0, 0] GoToFirstRow failed, ret: 27394061
+11-19 10:51:47.957  2117  2148 E C02d06/XCollie: can't open hungtask file, errno:2
+11-19 10:51:48.120   237   732 E C02699/MM: GetPressureMbStrings kernel pressure miss: key=stability_rollup
+11-19 10:51:48.122   237   732 E C02699/MM: ReadValuesFromFileWithoutLock Pressure fallback failed for key=stability_rollup
+11-19 10:51:48.122   237   732 E C02699/MM: GetPressureKbLockedMap stoi fail for key=stability_rollup
+11-19 10:51:48.122   237   732 E C02699/MM: IsBetaUser get logtype property fail
+11-19 10:51:48.129   461  3103 E C01611/UserDelegate: InitLocalUserMeta: failed to query os accounts, ret:1
+11-19 10:51:48.151   131  1087 E C02d66/XPerf: [InquiryOhImpl::ExtractStringValue] Canonical FilePath: /sys/class/ithermal/lpm/lpm_freq failed.
+11-19 10:51:48.151   131  1087 E C02d66/XPerf: [InquiryOhImpl::ExtractStringValue] Canonical FilePath: /sys/class/power_supply/Battery/status failed.
+11-19 10:51:48.285  2117  2326 E C01120/BMS: [a92ab26414d84bd, 0, 0] [bundle_state_storage.cpp(GetBundleStateJson:255)]bundle state file is empty
+11-19 10:51:48.344  2122  2192 E C01712/WORK_SCHEDULER: [IsBaseAbilityReady:201]base ability BundleMgrService not ready
+11-19 10:51:48.344  2122  2192 E C01712/WORK_SCHEDULER: [Init:470]request system service is not ready yet!
+11-19 10:51:48.351   129   183 E C05a03/Selinux: avc:  denied  { get } for service=5201 sid=u:r:installs:s0 scontext=u:r:installs:s0 tcontext=u:object_r:sa_filemanagement_distributed_file_daemon_service:s0 tclass=samgr_class permissive=0
+11-19 10:51:48.351  2173  3188 E C0430b/distributedfile_daemon: GetInstance:object == nullptr
+11-19 10:51:48.351  2173  3188 E C0430b/distributedfile_daemon: UMountDisShareFile:proxy is null
+11-19 10:51:48.381  2117  2328 E C01650/StepResultSet: [a92ab26414d84bd, 0, 0] GoToRow:position[0] rowCount[0] rowPos_[-1]!
+11-19 10:51:48.381  2117  2328 E C01120/BMS: [a92ab26414d84bd, 0, 0] GoToFirstRow failed, ret: 27394061
+11-19 10:51:48.546   239   712 E C02801/TouchDrawingManager: [|247]Register setting observer failed, ret:19
+11-19 10:51:48.546   239   712 E C02801/TouchDrawingManager: [|285]Register setting observer failed, ret:19
+11-19 10:51:48.546   239   712 E C02801/TouchDrawingManager: [|309]Register setting observer failed, ret:19
+11-19 10:51:48.546   239   712 E C02802/setting_DataShare: [|88]Get bool value fail
+11-19 10:51:48.547   239   712 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled' observer, error:19
+11-19 10:51:48.547   239   712 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_enabled_on_lock_screen' observer, error:19
+11-19 10:51:48.547   239   712 E C02801/AccountManager: [|172][AccountSetting] Failed to register 'accessibility_shortcut_timeout' observer, error:19

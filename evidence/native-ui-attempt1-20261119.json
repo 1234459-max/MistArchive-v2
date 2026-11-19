@@ -1,0 +1,17 @@
+{
+  "startedAt": "2026-11-19T02:40:54.770Z",
+  "completedAt": "2026-11-19T02:41:02.618Z",
+  "resumedAfterHarnessFix": false,
+  "device": "127.0.0.1:5555",
+  "bundle": "com.example.mistarchive.v2",
+  "scope": "Real HarmonyOS emulator UI via hdc uitest; real Preferences adapter; no mocked game implementation",
+  "records": [
+    {
+      "id": "FAILED_STEP",
+      "pass": false,
+      "error": "Error: error: failed to start ability.\r\nError Code:10106102  Error Message:The device screen is locked during the application launch, unlock screen failed.\r\nError cause: The current mode is developer mode, and the screen cannot be unlocked automatically\r\n  Try the following:\r\n  > Check in the settings whether the current device is in developer mode, and turn off developer mode\r\n\r\n",
+      "at": "2026-11-19T02:40:56.331Z"
+    }
+  ],
+  "steps": []
+}

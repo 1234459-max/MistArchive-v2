@@ -1,0 +1,20 @@
+{
+  "executedAt": "2026-11-19T02:51:12.5824521Z",
+  "device": "Mate 90 Pro / MistArchive Course emulator",
+  "system": "HarmonyOS 7.0.0.120",
+  "target": "127.0.0.1:5555",
+  "buildPassed": true,
+  "installationConfirmed": false,
+  "uiRegressionPassed": false,
+  "failure": "System initialization did not complete. Install retried on copied and fresh instances; code:301 user not exist. First ability launch failed while device was locked.",
+  "freshInstallAttempts": 4,
+  "hostFreeMemoryGBLastCheck": 2.57,
+  "retryPending": false,
+  "nextStep": "Repair emulator boot before installing this HAP and running native UI checks",
+  "notCompleted": [
+    "Native UI regression",
+    "Real Preferences force-stop restore",
+    "Continuous video",
+    "Personal Word report"
+  ]
+}

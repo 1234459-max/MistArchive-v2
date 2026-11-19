@@ -22,12 +22,19 @@ GameEngine集中校验事件与选择；InvestigationSession协调页面读档�
 
 2026年11月18日使用Node v24.14.1执行32项共享核心测试，全部通过：正常8项、边界9项、异常15项。文件Mock在两个子进程间保存和读取，恢复8事件、5线索状态，通过。31份导入文件的SHA-256与本地已有工程一致。
 
-本次测试直接执行类型擦除后的共享ArkTS业务代码，覆盖两种结局、重复及越级操作、存档校验、主备恢复、存储失败与重试、并发保护。该结果属于宿主核心与Mock验证；本阶段未重新执行DevEco原生编译、Hypium或模拟器UI检查。
+上述核心测试直接执行类型擦除后的共享ArkTS业务代码，覆盖两种结局、重复及越级操作、存档校验、主备恢复、存储失败与重试、并发保护。该结果属于11月18日的宿主核心与Mock验证。
+
+11月19日在当前工程重新完成DevEco原生构建，结果为BUILD SUCCESSFUL in 31 s 107 ms，输出[调试HAP](dist/MistArchive-v2-debug-unsigned.hap)。仍有3处Preferences异常处理提示和未配置签名提示。
+
+今天模拟器系统启动异常：D盘空间不足；F盘副本和空白实例未完成正常桌面初始化，安装重试返回code:301 user not exist。应用安装与UI回归未通过，尚未获得本轮原生运行截图和实际Preferences恢复证据。失败日志保留，不以旧结果替代。本轮Hypium仍未执行。
 
 - [结构化测试结果](evidence/host-test-results.json)
 - [本次执行日志](evidence/core-test-20261118.log)
 - [导入文件校验](evidence/source-import-20261118.json)
 - [分支状态示例](evidence/flow-traces.json)
+- [11月19日构建日志](evidence/build-20261119.log)
+- [11月19日包校验与环境](evidence/build-package-20261119.json)
+- [11月19日设备验证状态](evidence/native-status-20261119.json)
 
 ## 环境与运行
 
@@ -50,10 +57,11 @@ node scripts/test-core.mjs
 - [软件需求说明书](docs/软件需求说明书.md)
 - [开发计划](docs/开发计划.md)
 - [本次导入与验证记录](docs/开发记录.md)
+- [原生构建与设备检查](docs/原生构建与设备检查.md)
 
 ## 后续工作
 
 1. 根据实际运行问题完善交互或存档处理，并提交对应修改和测试。
-2. 在当前工程路径重新进行DevEco编译和模拟器回归，补充实际日志与截图。
+2. 解决模拟器系统启动异常，安装本轮HAP并进行UI回归，补充实际日志与截图。原生编译已通过。
 3. 录制完整调查、两个结局、重开及进程结束后的恢复过程。
 4. 完成个人Word报告，核对接口、核心代码、实际Commit和运行证据。

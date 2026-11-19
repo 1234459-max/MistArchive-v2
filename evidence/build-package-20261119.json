@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-19",
+  "sourceCommit": "6f0151820b7da2786ebb49138a9a67b2189d8ffc",
+  "devEcoStudio": "26.0.1.290",
+  "sdk": "26.0.1.120 Beta1",
+  "minimumConfiguredApi": 12,
+  "targetSdk": "26.0.1",
+  "buildResult": "BUILD SUCCESSFUL in 31 s 107 ms",
+  "hap": "dist/MistArchive-v2-debug-unsigned.hap",
+  "sha256": "c112b5aa5e59819f30e3dc9df992cfc7bc7ae33b54f5b5e86757298964db8675",
+  "remainingWarnings": [
+    "3 Preferences API exception-handling warnings",
+    "No signingConfig found"
+  ],
+  "scope": "Native ArkTS debug HAP build. Device validation is recorded separately."
+}
