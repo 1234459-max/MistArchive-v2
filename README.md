@@ -60,7 +60,7 @@ GameEngine集中校验事件与选择；InvestigationSession协调页面读档�
 node scripts/test-core.mjs
 ```
 
-原生UI脚本scripts/test-native-ui.mjs需已安装并运行中的模拟器及测试应用；会重开测试进度。MIST_HDC、MIST_DEVICE和MIST_BUNDLE可覆盖本机默认设置，执行前应核对。本次使用D盘原实例，模拟器系统HarmonyOS 7.0.0.120；连续录屏尚待完成。
+原生UI脚本scripts/test-native-ui.mjs需已安装并运行中的模拟器及测试应用；会重开测试进度。MIST_HDC、MIST_DEVICE和MIST_BUNDLE可覆盖本机默认设置，执行前应核对。本次使用D盘原实例，模拟器系统HarmonyOS 7.0.0.120；连续录屏已完成，见下方运行录屏。
 
 ## 文档
 
@@ -69,8 +69,19 @@ node scripts/test-core.mjs
 - [本次导入与验证记录](docs/开发记录.md)
 - [原生构建与设备检查](docs/原生构建与设备检查.md)
 
-## 后续工作
+## 运行录屏与Word文档
 
-1. 根据实际运行问题完善交互或存档处理，并提交对应修改和测试。
-2. 录制完整调查、两个结局、重开及进程结束后的恢复过程。
-3. 完成个人Word报告，核对接口、核心代码、实际Commit和运行证据。
+- [实际连续录屏与步骤时间索引](evidence/recording-20261120-final/README.md)
+- [直接下载MP4](evidence/recording-20261120-final/MistArchive-v2-emulator-20261120.mp4)
+- [个人Word报告](docs/交付文档/鸿蒙高级应用开发工程师认证-20230313247-荀怡-期末大作业报告.docx)
+- [软件需求说明书Word版](docs/交付文档/迷雾档案第二版_软件需求说明书.docx)
+
+11月20日录制只包含D盘模拟器手机画面，无桌面或音轨；同次8项原生检查全部通过。报告保留课程模板与评分页，包含本人责任架构、模块接口、核心代码、实际Git提交、Mock与原生测试、截图及总结。
+
+## 提交课程平台
+
+上传个人Word报告附件，在答案处同时填写仓库链接 https://github.com/1234459-max/MistArchive-v2 和个人GitHub账号1234459-max。姓名荀怡，学号20230313247，班级23物联2班。纸质版按课程通知双面打印装订。
+
+## 验证范围与后续
+
+已完成当前模拟器交付；物理手机签名与验证、API12实际设备兼容、Hypium执行及平台异常注入未完成。当前源码在本轮需求入库前已存在，仓库阶段记录反映真实整理、导入与验证时间，不追溯补造开发前记录。

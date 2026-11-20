@@ -1,0 +1,51 @@
+{
+  "packagedAt": "2026-11-20T09:12:09.823837+00:00",
+  "student": {
+    "name": "荀怡",
+    "studentId": "20230313247",
+    "class": "23物联2班",
+    "account": "1234459-max",
+    "mode": "独立完成"
+  },
+  "repository": "https://github.com/1234459-max/MistArchive-v2",
+  "files": [
+    {
+      "path": "docs/交付文档/迷雾档案第二版_软件需求说明书.docx",
+      "bytes": 248319,
+      "sha256": "dc2254f803d1bd0a97a5414239648c009dacabb63f1915271c2ff5f133ba392d",
+      "pages": 8
+    },
+    {
+      "path": "docs/交付文档/鸿蒙高级应用开发工程师认证-20230313247-荀怡-期末大作业报告.docx",
+      "bytes": 2122415,
+      "sha256": "0a32586128e1da41989cf16e3a3a0ea3abeb2fe8e66b1f52f3f13f7c6dee982b",
+      "pages": 23
+    },
+    {
+      "path": "evidence/recording-20261120-final/MistArchive-v2-emulator-20261120.mp4",
+      "bytes": 3312070,
+      "sha256": "0a80197cc1cba6c376b38f9a3ad975502fbe78f3b84d0618846069de68cda138",
+      "durationSeconds": 241.5,
+      "audioStreams": 0
+    }
+  ],
+  "verified": {
+    "coreTests": {
+      "date": "2026-11-18",
+      "passed": 32
+    },
+    "nativeUiRecording": {
+      "date": "2026-11-20",
+      "passed": 8,
+      "results": "evidence/recording-20261120-final/native-ui-results.json"
+    },
+    "documentQa": "Rendered with installed Word and visually inspected all pages; original course cover and scoring sections retained"
+  },
+  "limitations": [
+    "No physical-phone signing or validation",
+    "No actual API12 device compatibility check",
+    "Hypium runner not executed",
+    "Platform storage fault injection not executed; shared-session Mock cases passed",
+    "Existing implementation predates new-account requirements registration; no retroactive pre-development history claimed"
+  ]
+}

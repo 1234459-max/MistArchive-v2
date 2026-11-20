@@ -10,7 +10,8 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const hdc = process.env.MIST_HDC || 'F:/DevEco Studio/sdk/default/openharmony/toolchains/hdc.exe';
 const device = process.env.MIST_DEVICE || '127.0.0.1:5555';
 const bundle = process.env.MIST_BUNDLE || 'com.example.mistarchive.v2';
-const evidence = path.join(root, 'evidence');
+const evidence = process.env.MIST_EVIDENCE_DIR ? path.resolve(process.env.MIST_EVIDENCE_DIR) : path.join(root, 'evidence');
+const recording = process.argv.includes('--recording');
 const shots = path.join(evidence, 'screenshots');
 const layoutPath = path.join(evidence, 'native-layout.json');
 fs.mkdirSync(shots, { recursive: true });
@@ -91,6 +92,7 @@ async function expectText(text) {
 async function screenshot(name) {
   command('shell', 'uitest', 'screenCap', '-p', '/data/local/tmp/mistarchive-screen.png');
   command('file', 'recv', '/data/local/tmp/mistarchive-screen.png', path.join(shots, name + '.png'));
+  if (recording) await pause(2500);
 }
 function pass(id, name, detail) {
   records.push({ id, name, pass: true, detail, at: new Date().toISOString() });
@@ -119,6 +121,7 @@ async function restart() {
 }
 try {
   await start();
+  if (process.argv.includes('--reset-first')) await restart();
   if (!resumeAccuse) {
   await tap('进度');
   await expectText('已完成 0 / 12 个事件');
@@ -142,6 +145,7 @@ try {
   if (!stopped.toLowerCase().includes('success')) throw new Error(stopped);
   const pidStopped = command('shell', 'pidof', bundle).trim();
   if (pidStopped) throw new Error('App process still exists after force-stop: ' + pidStopped);
+  if (recording) await pause(3500);
   await start();
   const pidAfter = command('shell', 'pidof', bundle).trim();
   await expectText('器材储藏室');

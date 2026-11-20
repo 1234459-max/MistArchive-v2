@@ -1,0 +1,2 @@
+# Preserve the encoder's original carriage-return progress output.
+evidence/recording-20261120-final/capture.log -text -diff
